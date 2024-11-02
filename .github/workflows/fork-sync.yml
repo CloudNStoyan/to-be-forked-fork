@@ -1,8 +1,9 @@
-name: Sync Fork
+name: Fork Sync
 
 on:
-  workflow_dispatch: # on button click
-
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 jobs:
   sync:
     runs-on: ubuntu-latest
