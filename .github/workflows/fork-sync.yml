@@ -8,7 +8,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v2.0
+      - uses: CloudNStoyan/fork-sync
         with:
           base: main
           head: main
