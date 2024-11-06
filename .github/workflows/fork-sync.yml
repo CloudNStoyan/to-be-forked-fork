@@ -8,7 +8,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: CloudNStoyan/fork-sync@v1.0
+      - uses: CloudNStoyan/fork-sync@v1.1
         with:
           base: main
           head: main
